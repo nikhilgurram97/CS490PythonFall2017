@@ -1,4 +1,4 @@
-for i in range(700,1700):
-    if(i%5==0):
-        if(i%2==0):
-            print(i)
+for i in range(700,1700):   #initializing loop
+    if(i%5==0):             #Divisible by 5 validation
+        if(i%2==0):         #Divisible by 2 validation
+            print(i)        #print number
