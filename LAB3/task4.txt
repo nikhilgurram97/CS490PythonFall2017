@@ -1,0 +1,91 @@
+/usr/bin/python2.7 /home/aadi22796/PycharmProjects/LAB3/task4.py
+Sentence Tokenizaton:
+
+['Narendra Damodardas Modi is an Indian politician working as Prime minister of India', 'Born to a Gujarati family in Vadnagar, Modi helped his father sell tea as a child', 'Modi was appointed Chief Minister of Gujarat in 2001']
+
+-----
+
+Word Tokenizaton:
+
+['Narendra', 'Damodardas', 'Modi', 'is', 'an', 'Indian', 'politician', 'working', 'as', 'Prime', 'minister', 'of', 'India', 'Born', 'to', 'a', 'Gujarati', 'family', 'in', 'Vadnagar', ',', 'Modi', 'helped', 'his', 'father', 'sell', 'tea', 'as', 'a', 'child', 'Modi', 'was', 'appointed', 'Chief', 'Minister', 'of', 'Gujarat', 'in', '2001']
+
+-----
+
+Parts of Speech:
+
+[('Narendra', 'NNP'), ('Damodardas', 'NNP'), ('Modi', 'NNP'), ('is', 'VBZ'), ('an', 'DT'), ('Indian', 'JJ'), ('politician', 'NN'), ('as', 'IN'), ('Prime', 'NNP'), ('minister', 'NN'), ('of', 'IN'), ('India', 'NNP'), ('Born', 'NNP'), ('to', 'TO'), ('a', 'DT'), ('Gujarati', 'NNP'), ('family', 'NN'), ('in', 'IN'), ('Vadnagar', 'NNP'), (',', ','), ('Modi', 'NNP'), ('helped', 'VBD'), ('his', 'PRP$'), ('father', 'NN'), ('sell', 'NN'), ('tea', 'NN'), ('as', 'IN'), ('a', 'DT'), ('child', 'NN'), ('Modi', 'NNP'), ('was', 'VBD'), ('appointed', 'VBN'), ('Chief', 'NNP'), ('Minister', 'NNP'), ('of', 'IN'), ('Gujarat', 'NNP'), ('in', 'IN'), ('2001', 'CD')]
+
+-----
+
+Verb Eliminated Sentence:
+
+Narendra Damodardas Modi is an Indian politician as Prime minister of India Born to a Gujarati family in Vadnagar , Modi helped his father sell tea as a child Modi was appointed Chief Minister of Gujarat in 2001
+
+-----
+
+Lemmatization:
+
+The word 'Narendra' in a Lemmatized Version: Narendra
+The word 'Damodardas' in a Lemmatized Version: Damodardas
+The word 'Modi' in a Lemmatized Version: Modi
+The word 'is' in a Lemmatized Version: is
+The word 'an' in a Lemmatized Version: an
+The word 'Indian' in a Lemmatized Version: Indian
+The word 'politician' in a Lemmatized Version: politician
+The word 'as' in a Lemmatized Version: a
+The word 'Prime' in a Lemmatized Version: Prime
+The word 'minister' in a Lemmatized Version: minister
+The word 'of' in a Lemmatized Version: of
+The word 'India' in a Lemmatized Version: India
+The word 'Born' in a Lemmatized Version: Born
+The word 'to' in a Lemmatized Version: to
+The word 'a' in a Lemmatized Version: a
+The word 'Gujarati' in a Lemmatized Version: Gujarati
+The word 'family' in a Lemmatized Version: family
+The word 'in' in a Lemmatized Version: in
+The word 'Vadnagar' in a Lemmatized Version: Vadnagar
+The word ',' in a Lemmatized Version: ,
+The word 'Modi' in a Lemmatized Version: Modi
+The word 'helped' in a Lemmatized Version: helped
+The word 'his' in a Lemmatized Version: his
+The word 'father' in a Lemmatized Version: father
+The word 'sell' in a Lemmatized Version: sell
+The word 'tea' in a Lemmatized Version: tea
+The word 'as' in a Lemmatized Version: a
+The word 'a' in a Lemmatized Version: a
+The word 'child' in a Lemmatized Version: child
+The word 'Modi' in a Lemmatized Version: Modi
+The word 'was' in a Lemmatized Version: wa
+The word 'appointed' in a Lemmatized Version: appointed
+The word 'Chief' in a Lemmatized Version: Chief
+The word 'Minister' in a Lemmatized Version: Minister
+The word 'of' in a Lemmatized Version: of
+The word 'Gujarat' in a Lemmatized Version: Gujarat
+The word 'in' in a Lemmatized Version: in
+The word '2001' in a Lemmatized Version: 2001
+
+-----
+
+Word Frequency:
+
+[('Modi', 3), ('as', 2), ('in', 2), ('a', 2), ('of', 2), ('family', 1), ('tea', 1), ('is', 1), ('Gujarat', 1), ('an', 1), ('helped', 1), ('Gujarati', 1), ('Indian', 1), ('Vadnagar', 1), ('sell', 1), ('father', 1), (',', 1), ('to', 1), ('Minister', 1), ('was', 1), ('Prime', 1), ('his', 1), ('Chief', 1), ('minister', 1), ('child', 1), ('appointed', 1), ('politician', 1), ('Damodardas', 1), ('India', 1), ('Narendra', 1), ('Born', 1), ('2001', 1)]
+
+-----
+
+Top 5 words:
+
+['a', 'Modi', 'as', 'of', 'in']
+
+-----
+
+Sentences with most common words:
+
+set(['Narendra Damodardas Modi is an Indian politician working as Prime minister of India', 'Born to a Gujarati family in Vadnagar, Modi helped his father sell tea as a child'])
+
+-----
+
+Concatenated Sentences:
+
+Narendra Damodardas Modi is an Indian politician working as Prime minister of India Born to a Gujarati family in Vadnagar, Modi helped his father sell tea as a child
+
+Process finished with exit code 0
